@@ -8,6 +8,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 
 import shop from "../helpers/images/shopping-bag-icon.png"
+import { Image } from "react-bootstrap";
 
 const Navbarr = () => {
   return (
@@ -15,7 +16,7 @@ const Navbarr = () => {
       <Container className="py-3">
 
         <Link to="/home" className="navbar-brand d-flex align-items-center justify-content-between order-lg-0">
-          <img src={shop} alt="" />
+          <Image src={shop} alt="" rounded/>
           <span className="text-uppercase">MyShop</span>
         </Link>
 
