@@ -1,7 +1,11 @@
 /* Home */
+.carousel {
+    margin-top: 7rem;
+}
+
 .carousel .image {
     /* background-image: url(./helpers/images/banner-img-1.jpg); */
-    height: 100vh;
+    height: 87.5vh;
     width: 100%;
     /* background-size: cover; */
 }
