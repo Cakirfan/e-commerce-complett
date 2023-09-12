@@ -2,10 +2,37 @@
 .carousel {
     margin-top: 7rem;
 }
-
 .carousel .image {
     /* background-image: url(./helpers/images/banner-img-1.jpg); */
     height: 87.5vh;
     width: 100%;
     /* background-size: cover; */
+}
+
+
+/* special */
+.card {
+    border: none;
+    outline: none;
+}
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+.special-img span:hover .icon{
+    color: red;
+}
+.special-img .img{
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.special-img:hover .img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+}
+.card .btn {
+    border: none;
+    outline: none;
 }

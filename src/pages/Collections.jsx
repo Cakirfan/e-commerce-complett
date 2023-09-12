@@ -1,6 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import Products from "../helpers/data"
+import { Products } from "../helpers/data"
 
 const Collections = () => {
   return (

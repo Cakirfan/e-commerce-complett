@@ -12,7 +12,7 @@ import { Image } from "react-bootstrap";
 
 const Navbarr = () => {
   return (
-    <Navbar expand="lg" className="py-2 fixed-top navbar-light bg-white">
+    <Navbar expand="lg" className="py-2 fixed-top navbar-light bg-white shadow-lg">
       <Container className="py-3">
 
         <Link to="/home" className="navbar-brand d-flex align-items-center justify-content-between order-lg-0">

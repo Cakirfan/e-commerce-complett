@@ -1,4 +1,4 @@
-const Products = [
+export const Products = [
   {
     id: 1,
     pName: "Gray_Shirt",
@@ -49,4 +49,34 @@ const Products = [
   },
 ];
 
-export default Products;
+
+export const ProductSpecial = [
+  {
+    id: 1,
+    pName: "Pants",
+    image: "images/special_product_1.jpg",
+    price: "33.00",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, velit?",
+  },
+  {
+    id: 2,
+    pName: "Oversized Dress",
+    image: "images/special_product_2.jpg",
+    price: "45.00",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, velit?",
+  },
+  {
+    id: 3,
+    pName: "Coat",
+    image: "images/special_product_3.jpg",
+    price: "45.50",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, velit?",
+  },
+  {
+    id: 4,
+    pName: "Evening Dress",
+    image: "images/special_product_4.jpg",
+    price: "55.00",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, velit?",
+  },
+];
