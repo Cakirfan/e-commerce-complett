@@ -22,7 +22,7 @@ function App() {
         <Route path="/collection" element={<Collections />} />
         <Route path="/popular" element={<Popular />} />
         <Route path="/specials" element={<Specials />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/notfound" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

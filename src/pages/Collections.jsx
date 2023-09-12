@@ -5,7 +5,7 @@ import { Products } from "../helpers/data"
 const Collections = () => {
   return (
     <div>
-      <section id="collection" className="py-5" style={{ marginTop: "6rem" }}>
+      <section id="collection" className="py-5 bg-secondary-emphasis" style={{ marginTop: "6rem" }}>
         <div className="container">
           <div className="title text-center">
             <h2 className="position-relative d-inline-block">New Collection</h2>
@@ -14,18 +14,10 @@ const Collections = () => {
 
         <div className="row">
           <div className="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-            <Button className="btn m-2 text-dark active" data-name="all">
-              All
-            </Button>
-            <Button className="btn m-2 text-dark" data-name="best">
-              Best Sellers
-            </Button>
-            <Button className="btn m-2 text-dark" data-name="feat">
-              Featured
-            </Button>
-            <Button className="btn m-2 text-dark" data-name="new">
-              New Arrival
-            </Button>
+            <Button className="btn m-2 text-white active" data-name="all">All</Button>
+            <Button className="btn m-2 text-white" data-name="best">Best Sellers</Button>
+            <Button className="btn m-2 text-white" data-name="feat">Featured</Button>
+            <Button className="btn m-2 text-white" data-name="new">New Arrival</Button>
           </div>
 
           <div className="collection-list mt-4 row gap-3 d-flex align-items-center justify-content-center">
