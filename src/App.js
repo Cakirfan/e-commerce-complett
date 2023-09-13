@@ -10,6 +10,7 @@ import Specials from "./pages/Specials";
 import NotFound from "./pages/NotFound";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/specials" element={<Specials />} />
         <Route path="/notfound" element={<NotFound />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

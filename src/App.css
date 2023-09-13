@@ -1,6 +1,6 @@
 /* Home */
 .carousel {
-    margin-top: 7rem;
+    margin-top: 7.2rem;
 }
 .carousel .image {
     /* background-image: url(./helpers/images/banner-img-1.jpg); */
@@ -35,4 +35,19 @@
 .card .btn {
     border: none;
     outline: none;
+}
+
+
+/* footer */
+.icon-links,
+.icon-contact,
+.icon-social {
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.icon-links:hover,
+.icon-contact:hover,
+.icon-social:hover {
+    transform: scale(1.3);
+    margin-right: .5rem;
 }
